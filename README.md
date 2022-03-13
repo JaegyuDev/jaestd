@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-GPLv2-brightgreen)
+
 # jaestd
 
 > Coding ComputerCraft:Tweaked, simplified.
