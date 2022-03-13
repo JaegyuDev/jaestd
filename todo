@@ -1,0 +1,28 @@
+http_handling:
+    1. finish 4xx codes
+    2. implement 5xx codes
+    [link](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+
+downloads:
+    1. pull script from URL to a file
+    2. allow run on download
+    3. .. ?
+
+mobility:
+    1. relative tracking (x,y,z pos)
+    2. ?? <- might need to merge some of these ngl
+
+console:
+    1. progress bars
+    2. color wrapper
+    3. ?? still dont know tbh
+
+networking:
+    1. modem/wireless/ewireless wrapper
+    2. network io/channel
+    3. ?? still clueless
+
+install-script:
+    ::todo ->
+        requires http_handling/downloads
+        to be finished
