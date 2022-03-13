@@ -21,7 +21,7 @@ Simply import the module needed using `require("jaestd/{module}")`
 Example:
 
 ```
-require("jaestd/http_handling")
+require("jaestd.http_handling")
 
 response = http.get("example.url")
 http_checkHandling(response) -- automatically checks if the response has errored out, and will print the error

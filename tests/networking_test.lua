@@ -1,3 +1,3 @@
-jstd = require("jaestd.networking")
+--For testing functions in jaestd.networking
 
-networking.test("hello")
+jstd = require("jaestd.networking")
