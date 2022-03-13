@@ -22,3 +22,5 @@ function dl.download_run(filename, url)
         error("error, corrupted or tampered file", 403)
     end 
 end
+
+return dl
