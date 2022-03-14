@@ -31,6 +31,7 @@ end
 
 -- Main download + errorchecking function
 function download(url, filename)
+    print("[DOWNLOAD] -> " .. filename .. ' from ' .. base_url)
     response = http.get(url)
     if response.getResponseCode() ~= 200 then
         print("[ERROR] -> malformed get request or other error, please contact jaestd authors!")
@@ -53,4 +54,5 @@ download(modules['networking'], 'networking')
 
 
 fs.move('jstd_tmp/jaestd', 'jaestd')
+print("[INSTALLER] -> finalizing install!")
 fs.delete('jstd_tmp')
