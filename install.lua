@@ -39,7 +39,7 @@ function download(url, filename)
         fs.delete('/jaestd/')
         error("", 0)
     end
-    write_data('/jaestd/ ' .. filename, read(response))
+    write_data('/jaestd/' .. filename, read(response))
 end
 
 -- ik theres a way to iterate thru this
