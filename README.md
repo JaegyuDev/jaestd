@@ -9,7 +9,7 @@
 Simply run:
 
 ```
-wget run https://raw.githubusercontent/TylenolWasTaken/jaestd/install.lua
+wget run https://raw.githubusercontent.com/TylenolWasTaken/jaestd/master/install.lua
 ```
 
 ## Usage
