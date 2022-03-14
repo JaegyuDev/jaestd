@@ -9,7 +9,7 @@ modules = {
 }
 
 -- Check to see if libdir is empty
-if fs.exists('/jaestd/') == true do
+if fs.exists('/jaestd/') == true then
     error("[ERROR] -> path /jaestd/ isn't empty", 0)
 else
     print("[INSTALLER] -> initializing library dir")
@@ -17,7 +17,7 @@ else
 end
 
 -- Check to see if the download tmp dir is empty
-if fs.exists('/jstd_tmp/') == true do
+if fs.exists('/jstd_tmp/') == true then
     error("[ERROR] -> path /jstd_tmp/ not empty", 0)
 else
     print("[INSTALLER] -> initializing tmp dir")
@@ -34,7 +34,7 @@ end
 -- Main download + errorchecking function
 function download(url, filename)
     response = http.get("example.tweaked.cc")
-    if response.getResponseCode()['number'] ~= 200 do
+    if response.getResponseCode()['number'] ~= 200 then
         print("[ERROR] -> malformed get request or other error, please contact jaestd authors!")
         print(response.getResponseCode())
         fs.delete('/jstd_tmp/')
