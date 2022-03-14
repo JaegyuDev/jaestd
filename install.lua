@@ -1,4 +1,4 @@
-base_url = https://raw.githubusercontent.com/TylenolWasTaken/jaestd/master/jaestd/
+base_url = 'https://raw.githubusercontent.com/TylenolWasTaken/jaestd/master/jaestd/'
 
 modules = {
     [console] = base_url .. 'console.lua',
