@@ -6,8 +6,6 @@
 
 ## Installation
 
-> Not implemented yet!
-
 Simply run:
 
 ```
@@ -23,15 +21,16 @@ Example:
 ```
 require("jaestd.http_handling")
 
-response = http.get("example.url")
+response = http.get("example.tweaked.cc")
 http_checkHandling(response) -- automatically checks if the response has errored out, and will print the error
 ```
 
 ## What's finished?
 
+* [x] installer (yass)
 * [ ] console
 * [ ] downloads
-* [ ] http_handling (yikes)
+* [ ] http_handling (yikes) (still yikes)
 * [ ] turtle mobility
 * [ ] wired/wireless networking
 
