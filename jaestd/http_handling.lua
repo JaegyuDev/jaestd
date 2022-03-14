@@ -12,7 +12,7 @@ response_error = {
 http_handling = {}
 
 function http_handling.checkResponse(response)
-    if response != 200 then
+    if response ~= 200 then
         local func = c_tbl[choice]
         if(func) then
             func()

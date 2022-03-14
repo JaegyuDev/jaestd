@@ -16,7 +16,7 @@ wget run https://raw.githubusercontent/TylenolWasTaken/jaestd/install.lua
 
 ## Usage
 
-Simply import the module needed using `require("jaestd/{module}")`
+Simply import the module needed using `require("jaestd.{module}")`
 
 Example:
 
