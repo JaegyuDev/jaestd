@@ -11,21 +11,15 @@ response_error = {
 
 http_handling = {}
 
-
-
-function check_response(response)
+function http_handling.checkResponse(response)
     if response != 200 then
-        if response == 400 then
-            
-        elseif response == 401 then
-
-        elseif response == 402 then
-            
-        elseif response == 403 then
-            error("")
-        elseif response == 404 then
-            
-        elseif response == 405 then
-            error("HTTP 405: ")
+        local func = c_tbl[choice]
+        if(func) then
+            func()
+        else
+            print("something happened, not sure what though")
+        end
+    end
+end
 
 return http_handling
