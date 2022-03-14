@@ -23,6 +23,4 @@ networking:
     3. ?? still clueless
 
 install-script:
-    ::todo ->
-        requires http_handling/downloads
-        to be finished
+    --done
