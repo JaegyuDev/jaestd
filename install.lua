@@ -31,7 +31,7 @@ end
 
 -- Main download + errorchecking function
 function download(url, filename)
-    print("[DOWNLOAD] -> " .. filename .. ' from ' .. base_url)
+    print("[DOWNLOAD] -> " .. filename)
     response = http.get(url)
     if response.getResponseCode() ~= 200 then
         print("[ERROR] -> malformed get request or other error, please contact jaestd authors!")
@@ -45,7 +45,7 @@ end
 
 -- ik theres a way to iterate thru this
 -- but im not paid enough :slight_smile:
-
+print ("[DOWNLOAD] -> getting content from" .. base_url)
 download(modules['console'], 'console')
 download(modules['download'], 'download')
 download(modules['http_handling'], 'http_handling')
