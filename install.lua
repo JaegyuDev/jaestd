@@ -33,7 +33,7 @@ end
 function download(url, filename)
     response = http.get(url)
     if response.getResponseCode() ~= 200 then
-        print("[ERROR] -> example.tweaked.cc"] -> malformed get request or other error, please contact jaestd authors!")
+        print("[ERROR] -> malformed get request or other error, please contact jaestd authors!")
         print(response.getResponseCode())
         fs.delete('/jstd_tmp/')
         fs.delete('/jaestd/')
