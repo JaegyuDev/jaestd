@@ -1,4 +1,4 @@
-![License](https://img.shields.io/badge/license-GPLv2-brightgreen)
+![License](https://img.shields.io/github/license/JaegyuDev/jaestd)
 
 # jaestd
 
