@@ -70,16 +70,16 @@ function Heap:pop()
     if self.size == 0 then
         return nil
     end
-    
+
     local topItem = self.items[1]
     self.items[1] = self.items[self.size]
     self.items[self.size] = nil
     self.size = self.size - 1
-    
+
     if self.size > 0 then
         self:_siftDown(1)
     end
-    
+
     return topItem
 end
 
@@ -110,4 +110,4 @@ function Heap:clear()
     self.size = 0
 end
 
-return heap
+return Heap
